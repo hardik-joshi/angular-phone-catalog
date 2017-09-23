@@ -68,3 +68,8 @@ git diff step-?..step-?
 - Add a simple unit test for the `PhoneListController` controller to show how to write tests and
   run them using Karma.
 
+### step-3 _Components_
+
+- Introduce components.
+- Combine the controller and the template into a reusable, isolated `phoneList` component.
+- Refactor the application and tests to use the `phoneList` component.
