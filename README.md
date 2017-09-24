@@ -73,3 +73,12 @@ git diff step-?..step-?
 - Introduce components.
 - Combine the controller and the template into a reusable, isolated `phoneList` component.
 - Refactor the application and tests to use the `phoneList` component.
+
+### step-4 _Directory and File Organization_
+
+- Refactor the layout of files and directories, applying best practices and techniques that will
+  make the application easier to maintain and expand in the future:
+  - Put each entity in its own file.
+  - Organize code by feature area (instead of by function).
+  - Split code into modules that other modules can depend on.
+  - Use external templates in `.html` files (instead of inline HTML strings).
