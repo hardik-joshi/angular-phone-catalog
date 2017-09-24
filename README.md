@@ -82,3 +82,13 @@ git diff step-?..step-?
   - Organize code by feature area (instead of by function).
   - Split code into modules that other modules can depend on.
   - Use external templates in `.html` files (instead of inline HTML strings).
+
+### step-5 _Filtering Repeaters_
+
+- Add a search box to demonstrate:
+  - How the data-binding works on input fields.
+  - How to use the `filter` filter.
+  - How `ngRepeat` automatically shrinks and grows the number of phones in the view.
+- Add an end-to-end test to:
+  - Show how end-to-end tests are written and used.
+  - Prove that the search box and the repeater are correctly wired together.
