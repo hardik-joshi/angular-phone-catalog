@@ -92,3 +92,10 @@ git diff step-?..step-?
 - Add an end-to-end test to:
   - Show how end-to-end tests are written and used.
   - Prove that the search box and the repeater are correctly wired together.
+
+### step-6 _Two-way Data Binding_
+
+- Add an `age` property to the phone model.
+- Add a drop-down menu to control the phone list order.
+- Override the default order value in controller.
+- Add unit and end-to-end tests for this feature.
