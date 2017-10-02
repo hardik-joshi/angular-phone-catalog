@@ -113,3 +113,16 @@ git diff step-?..step-?
 - Add a phone image and links to phone pages.
 - Add an end-to-end test that verifies the phone links.
 - Tweak the CSS to style the page just a notch.
+
+### step-9 _Routing & Multiple Views_
+
+- Introduce the `$route` service, which allows binding URLs to views for routing and deep-linking:
+  - Add the `ngRoute` module as a dependency.
+  - Configure routes for the application.
+  - Use the `ngView` directive in 'index.html'.
+- Create a phone list route (`/phones`):
+  - Map `/phones` to the existing `phoneList` component.
+- Create a phone detail route (`/phones/:phoneId`):
+  - Map `/phones/:phoneId` to a new `phoneDetail` component.
+  - Create a dummy `phoneDetail` component, which displays the selected phone ID.
+  - Pass the `phoneId` parameter to the component's controller via `$routeParams`.
