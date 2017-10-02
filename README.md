@@ -99,3 +99,11 @@ git diff step-?..step-?
 - Add a drop-down menu to control the phone list order.
 - Override the default order value in controller.
 - Add unit and end-to-end tests for this feature.
+
+### step-7 _XHR & Dependency Injection_
+
+- Replace the in-memory dataset with data loaded from the server (in the form of a static 'phone.json' file to keep the tutorial backend   agnostic):
+  - The JSON data is loaded using the `$http` service.
+- Demonstrate the use of services and `dependency injection` (DI):
+  - `$http` is injected into the controller through DI.
+  - Introduce DI annotation methods: `.$inject` and inline array
