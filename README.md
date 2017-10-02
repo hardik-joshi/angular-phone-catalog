@@ -107,3 +107,9 @@ git diff step-?..step-?
 - Demonstrate the use of services and `dependency injection` (DI):
   - `$http` is injected into the controller through DI.
   - Introduce DI annotation methods: `.$inject` and inline array
+
+### step-8 _Templating Links & Images_
+
+- Add a phone image and links to phone pages.
+- Add an end-to-end test that verifies the phone links.
+- Tweak the CSS to style the page just a notch.
