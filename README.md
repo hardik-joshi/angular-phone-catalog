@@ -126,3 +126,10 @@ git diff step-?..step-?
   - Map `/phones/:phoneId` to a new `phoneDetail` component.
   - Create a dummy `phoneDetail` component, which displays the selected phone ID.
   - Pass the `phoneId` parameter to the component's controller via `$routeParams`.
+
+### step-10 _More Templating_
+
+- Implement fetching data for the selected phone and rendering to the view:
+  - Use `$http` in `PhoneDetailController` to fetch the phone details from a JSON file.
+  - Create the template for the detail view.
+- Add CSS styles to make the phone detail page look "pretty-ish".
