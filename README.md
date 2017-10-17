@@ -133,3 +133,9 @@ git diff step-?..step-?
   - Use `$http` in `PhoneDetailController` to fetch the phone details from a JSON file.
   - Create the template for the detail view.
 - Add CSS styles to make the phone detail page look "pretty-ish".
+
+### step-11 _Custom Filters_
+
+- Implement a custom `checkmark` filter.
+- Update the `phoneDetail` template to use the `checkmark` filter.
+- Add a unit test for the `checkmark` filter.
