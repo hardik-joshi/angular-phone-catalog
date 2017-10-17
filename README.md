@@ -166,7 +166,7 @@ git diff step-?..step-?
   - JavaScript-based animations.
 
 
-## Development with `angular-phonecat`
+## Development with `angular-phone-catalog`
 
 The following docs describe how you can test and develop this application further.
 
