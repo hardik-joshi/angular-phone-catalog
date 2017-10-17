@@ -139,3 +139,11 @@ git diff step-?..step-?
 - Implement a custom `checkmark` filter.
 - Update the `phoneDetail` template to use the `checkmark` filter.
 - Add a unit test for the `checkmark` filter.
+
+### step-12 _Event Handlers_
+
+- Make the thumbnail images in the phone detail view clickable:
+  - Introduce a `mainImageUrl` property on `PhoneDetailController`.
+  - Implement the `setImage()` method for changing the main image.
+  - Use `ngClick` on the thumbnails to register a handler that changes the main image.
+  - Add an end-to-end test for this feature.
