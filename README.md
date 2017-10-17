@@ -147,3 +147,9 @@ git diff step-?..step-?
   - Implement the `setImage()` method for changing the main image.
   - Use `ngClick` on the thumbnails to register a handler that changes the main image.
   - Add an end-to-end test for this feature.
+
+### step-13 _REST and Custom Services_
+
+- Replace `$http` with `$resource`.
+- Create a custom `Phone` service that represents the RESTful client.
+- Use a custom Jasmine equality tester in unit tests to ignore irrelevant properties.
